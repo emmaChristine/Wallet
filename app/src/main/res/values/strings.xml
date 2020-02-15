@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">wallet</string>
+
+    <!-- Main screen -->
+
+    <string name="screen_title">Current account</string>
+    <string name="empty_transaction_message">No transactions yet.</string>
+
+    <!-- txs details screen -->
+    <string name="amount_title">Amount</string>
+    <string name="fee_title">Fee</string>
+    <string name="date_title">Date</string>
+
+
+    <!-- Currencies -->
+    <string name="btc_fa">\u20BF </string>
+    <string name="default_amount">\u20BF 0.00308088</string>
+
+</resources>
