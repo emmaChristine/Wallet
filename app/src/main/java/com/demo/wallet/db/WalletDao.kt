@@ -15,7 +15,7 @@ import io.reactivex.Flowable
 @Dao
 interface WalletDao {
 
-    @Query("SELECT * FROM txs ORDER BY time")
+    @Query("SELECT * FROM txs")
     fun getAllTransactions(): Flowable<List<txs>>
 
 

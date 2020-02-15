@@ -9,7 +9,7 @@ import retrofit2.http.GET
 
 interface WalletAPI {
 
-    @GET("multiaddr?&n=5")
+    @GET("multiaddr?&n=10")
     fun getAllTransactions(): Deferred<Response<TransactionResponse>>
 
 }

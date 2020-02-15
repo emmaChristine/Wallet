@@ -9,7 +9,7 @@ Crypto wallet App
 
 ## Features
 
-The application presents a list of cryptoccurency transactions using Blockchain multiaddress API, together with their basic details.
+The application presents a list of cryptocurrency transactions using Blockchain multiaddress API, together with their basic details.
 
 Assumptions: 
 
@@ -83,8 +83,6 @@ Blockchain API for Multi Address does support pagination:
 * In order to be mindfull of user data, we should request the list of transactions from the API with minimum information given for each transaction. In this case the API would provide another endpoint to fetch transactions individually based on 'hash'.
 
 * Exchange rate is hardcoded, should be updated from the API.
-
-* Create more drawables for different res, and use copyright images in a production app.
 
 * To gain insight on app usage and user engamenent integrate Analytics using Firebase.
 

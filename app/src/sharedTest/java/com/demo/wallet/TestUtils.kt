@@ -5,10 +5,10 @@ import com.demo.wallet.data.dto.txs
 
 object TestUtils {
 
-    const val DEFAULT_TXS_HASH = 1
-    const val DEFAULT_TXS_DATE =  "1.01.2020"
-    const val DEFAULT_TXS_FEE = 6.0
-    const val DEFAULT_TXS_RES = "111"
+    const val DEFAULT_TXS_HASH = "123abc"
+    const val DEFAULT_TXS_DATE: Long =  908000
+    const val DEFAULT_TXS_FEE: Long = 600
+    const val DEFAULT_TXS_RES: Long = 908000
 
     val transactionDefault = txs(DEFAULT_TXS_HASH, DEFAULT_TXS_RES, DEFAULT_TXS_DATE, DEFAULT_TXS_FEE)
 }
